@@ -1,4 +1,60 @@
-.App {
+@import-normalize;
+
+.App{
+  background-color:#5e6448;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+.header {
+  padding: 10px;
+  width: 100vw;
+  height: 8vh;
+  background-color: #262626;
+  color: #FF7F11;
+  display: flex;
+  align-items:center;
+  /* margin-left: */
+}
+
+.Main{
+  background-color: crimson;
+    display: flex;
+    width: 100vw;
+    height: 92vh;
+}
+
+
+.Class-Choice{
+  background-color: aqua;
+  height: auto;
+  width: auto;
+}
+.Selection{
+  background-color: blueviolet;
+  height: auto;
+  width: auto;
+}
+.title-list{
+font-style:oblique;
+color:rgb(97, 20, 220);
+background-color: lavender;
+width:100px;
+}
+
+
+.Title-Output{}
+.Statblock{
+  background-color: chartreuse;
+  height: auto;
+  width: auto;
+}
+.Titles{}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +91,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
